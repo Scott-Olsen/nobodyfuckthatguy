@@ -1,0 +1,28 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Name:</b>
+  <%= @guy.name %>
+</p>
+
+<p>
+  <b>Story:</b>
+  <%= @guy.story %>
+</p>
+
+<p>
+  <b>Up votes:</b>
+  <%= @guy.up_votes %>
+</p>
+
+<p>
+  <b>Down votes:</b>
+  <%= @guy.down_votes %>
+</p>
+<p>
+  <b>Image:</b>
+  <%= image_tag @guy.mug.url %>
+</p>
+
+<%= link_to 'Edit', edit_guy_path(@guy) %> |
+<%= link_to 'Back', guys_path %>

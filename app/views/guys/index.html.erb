@@ -1,0 +1,29 @@
+<h1>Listing guys</h1>
+
+<table>
+  <tr>
+    <th>Name</th>
+    <th>Story</th>
+    <th>Up votes</th>
+    <th>Down votes</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @guys.each do |guy| %>
+  <tr>
+    <td><%= guy.name %></td>
+    <td><%= guy.story %></td>
+    <td><%= guy.up_votes %></td>
+    <td><%= guy.down_votes %></td>
+    <td><%= link_to 'Show', guy %></td>
+    <td><%= link_to 'Edit', edit_guy_path(guy) %></td>
+    <td><%= link_to 'Destroy', guy, :method => :delete, :data => { :confirm => 'Are you sure?' } %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New Guy', new_guy_path %>
