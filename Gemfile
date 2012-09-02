@@ -46,3 +46,6 @@ gem 'execjs'
 
 # File Uploads
 gem "paperclip"
+
+#User Authentication
+gem 'devise'
