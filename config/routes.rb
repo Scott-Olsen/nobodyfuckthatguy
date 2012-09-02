@@ -1,6 +1,4 @@
 Nobodyfuckthatguy::Application.routes.draw do
-  resources :users
-
   resources :guys
 
   # The priority is based upon order of creation:
