@@ -45,4 +45,4 @@ gem 'execjs'
 # gem 'ruby-debug'
 
 # File Uploads
-gem "paperclip", "~> 2.7"
+gem "paperclip"

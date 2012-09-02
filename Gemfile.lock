@@ -117,7 +117,7 @@ DEPENDENCIES
   execjs
   jquery-rails
   json
-  paperclip (~> 2.7)
+  paperclip
   pg
   rails (= 3.2.8)
   sass-rails (~> 3.2.3)
