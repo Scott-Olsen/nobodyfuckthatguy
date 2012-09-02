@@ -1,4 +1,6 @@
 Nobodyfuckthatguy::Application.routes.draw do
+  devise_for :users
+
   resources :guys
 
   # The priority is based upon order of creation:
