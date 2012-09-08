@@ -1,0 +1,8 @@
+defaults: &defaults
+  root_url: nobodyfuckthatguy.com
+  site_title: 'Nobody Fuck That Guy'
+production:
+  <<: *defaults
+
+development:
+  <<: *defaults
