@@ -49,3 +49,6 @@ gem "paperclip"
 
 #User Authentication
 gem 'devise'
+
+# SCSS
+gem 'bourbon'
